@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ваше Право | Юридичний супровід та ліцензування медичної практики</title>
+  <meta name="description" content="Отримання ліцензій на медичну практику, обіг наркотичних засобів та комплексний правовий захист медичних закладів в Україні. Понад 20 років досвіду.">
+  <meta name="keywords" content="Ваше право, медичні ліцензії, медичний адвокат, ліцензування МОЗ, ліцензія на медичну практику, захист лікаря, Родигіна Олександра">
+  <meta name="theme-color" content="#0D2B45">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ваше Право | Медичне право та ліцензування в Україні">
+  <meta property="og:description" content="Понад 20 років досвіду в сфері охорони здоров’я. Гарантія отримання ліцензії 100%.">
+  <meta property="og:image" content="assets/img/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+
+  <!-- Styles -->
+    <!-- Google Fonts: PT Serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Translucent Page-Sheet Transition Curtain -->
+  <div class="page-sheet-curtain" id="sheet-curtain">
+    <div class="sheet-edge-line sheet-edge-top"></div>
+    <div class="sheet-edge-line sheet-edge-bottom"></div>
+  </div>
+
+
+  <!-- ======================================================================
+       HEADER
+       ====================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo-wrapper">
+        <img src="assets/img/logo.png" alt="Ваше Право Логотип" class="logo-img">
+        
+      </a>
+
+      <nav class="main-nav">
+        <a href="#about" class="nav-link">Про нас</a>
+        <a href="#services" class="nav-link">Послуги</a>
+        <a href="#process" class="nav-link">Процес</a>
+        <a href="#presentation" class="nav-link">Презентація</a>
+        <a href="#achievements" class="nav-link">Досягнення</a>
+        <a href="#blog" class="nav-link">Корисне</a>
+        <a href="#contacts" class="nav-link">Контакти</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:0800336012" class="phone-quick-link" title="Безкоштовно по Україні">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.72 11.72 0 003.68.59 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.72 11.72 0 00.59 3.68 1 1 0 01-.24 1.02l-2.23 2.09z"/></svg>
+          <span>0 800 33 60 12</span>
+        </a>
+        <button class="btn-pill-primary" onclick="scrollToConsultation()">
+          Консультація
+        </button>
+      </div>
+
+      <button class="mobile-menu-toggle" aria-label="Меню" onclick="scrollToConsultation()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       HERO SECTION
+       ====================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        <span>Понад 20 років досвіду у сфері охорони здоров’я</span>
+      </div>
+
+      <h1 class="hero-title">Ваше Право — надійний захист та ліцензування медичної практики</h1>
+      
+      <p class="hero-subtitle">
+        Професійний супровід від приватного лікаря до багатопрофільного медичного центру. Беремо на себе всі бюрократичні інстанції та гарантуємо 100% результат.
+      </p>
+
+      <div class="hero-cta-group">
+        <button class="btn-pill-primary" onclick="scrollToConsultation()">
+          Отримати безкоштовну консультацію
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <a href="#services" class="btn-pill-secondary">
+          Переглянути всі послуги
+        </a>
+      </div>
+
+      <!-- 3 Apple-Style Metrics -->
+      <div class="hero-metrics-grid">
+        <div class="metric-card">
+          <div class="metric-value counter-animate" data-target="100" data-suffix="%">0%</div>
+          <div class="metric-label">Гарантія якості</div>
+          <div class="metric-desc">Всі послуги надаються виключно в правовому полі з повною юридичною чистотою.</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-value counter-animate" data-target="100" data-suffix="%">0%</div>
+          <div class="metric-label">Гарантія отримання</div>
+          <div class="metric-desc">Безперервний контроль до моменту виходу наказу МОЗ про видачу ліцензії.</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-value counter-animate" data-target="2000" data-suffix=" р.">0 р.</div>
+          <div class="metric-label">На ринку України</div>
+          <div class="metric-desc">Солідний багаж знань, авторитет та відсутність ризиків при перевірках у майбутньому.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       WHY US / TRUST PILLARS
+       ====================================================================== -->
+  <section class="section section-parchment" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Чому обирають нас</span>
+        <h2 class="section-title">Чому компанія «Ваше Право»?</h2>
+        <p class="section-lead">
+          Ми спеціалізуємось виключно на охороні здоров’я, тому знаємо кожну деталь ліцензійних вимог та сучасної судової практики.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 14.5h-2v-2h2v2zm0-4h-2V7h2v5.5z"/></svg>
+          </div>
+          <h3 class="pillar-title">Досвід</h3>
+          <p class="pillar-text">
+            Більше 15–20 років наша компанія займається виключно питаннями правового супроводу медичної практики — як приватно практикуючих лікарів, так і клінік від малого медцентру до обласної лікарні.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          </div>
+          <h3 class="pillar-title">Відповідальність</h3>
+          <p class="pillar-text">
+            Наші послуги надаються виключно в правовому полі. Вся інформація про суб'єкта господарювання є декларативною та формується нами так, щоб захистити заклад від санкцій при майбутніх перевірках.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42A7.92 7.92 0 0120 12c0 4.42-3.58 8-8 8s-8-3.58-8-8c0-2.43 1.1-4.6 2.83-6.07L5.41 4.51A9.953 9.953 0 002 12c0 5.52 4.48 10 10 10s10-4.48 10-10c0-2.98-1.31-5.65-3.37-7.49l.2-.34z"/></svg>
+          </div>
+          <h3 class="pillar-title">Оперативність</h3>
+          <p class="pillar-text">
+            Гарантовано оперативне та якісне опрацювання Вашої справи без затримок. Ми самостійно проходимо всі потрібні інстанції та тримаємо клієнта в курсі кожного кроку.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       FOUNDER & LEADERSHIP
+       ====================================================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="founder-card">
+        <div class="founder-photo-wrapper">
+          <img src="assets/img/avatar.jpg" alt="Родигіна Олександра Олександрівна" class="founder-avatar-img">
+          <span class="founder-title-badge">Керівник компанії</span>
+          <div style="margin-top: 12px; font-weight: 700; font-size: 15px; color: var(--primary-navy);">
+            Родигіна О.О.
+          </div>
+          <div style="font-size: 12px; color: var(--ink-secondary);">Медичний адвокат</div>
+        </div>
+
+        <div class="founder-content">
+          <span class="founder-quote-tag">Персональна гарантія</span>
+          <h2 class="founder-name">Родигіна Олександра Олександрівна</h2>
+          <div class="founder-role">Керівник юридичної компанії «Ваше Право», медичний адвокат</div>
+          
+          <p class="founder-bio">
+            «Компанія «Ваше Право» має більш ніж 20-ти річний стаж роботи з надання консультаційних та юридичних послуг в сфері охорони здоров’я. Співпраця з нами є надійним гарантом відсутності неприємних наслідків при перевірках у майбутньому. Ми ведемо безперервний контроль за ситуацією з оформлення та руху документів аж до моменту отримання позитивного результату.»
+          </p>
+
+          <div class="founder-highlights">
+            <div class="highlight-item">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Індивідуальний підхід до специфіки кожного закладу</span>
+            </div>
+            <div class="highlight-item">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Ціни завжди відповідають фінансовим можливостям клієнтів</span>
+            </div>
+            <div class="highlight-item">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Постійний моніторинг ліцензійної справи в МОЗ</span>
+            </div>
+            <div class="highlight-item">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Захист лікарів у спорах з пацієнтами та контролерами</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SERVICES GRID (12 CORE DIRECTIONS)
+       ====================================================================== -->
+  <section class="section section-parchment" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Каталог послуг</span>
+        <h2 class="section-title">Комплексні юридичні послуги для медицини</h2>
+        <p class="section-lead">
+          Повний цикл юридичного супроводу: від створення медзакладу та отримання ліцензії МОЗ до захисту прав лікаря в суді.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">МОЗ України</span>
+            <h3 class="service-title">Ліцензування медичної практики</h3>
+            <p class="service-desc">Підготовка пакету документів, подача до МОЗ та отримання наказу про видачу ліцензії.</p>
+            <ul class="service-points">
+              <li>Аналіз матеріально-технічної бази</li>
+              <li>Кваліфікація медперсоналу</li>
+              <li>Розширення на нові адреси та спеціальності</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('med-practice')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 2 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Держлікслужба</span>
+            <h3 class="service-title">Обіг наркотичних засобів та прекурсорів</h3>
+            <p class="service-desc">Ліцензування придбання, зберігання, використання, перевезення та знищення підконтрольних речовин.</p>
+            <ul class="service-points">
+              <li>Дозволи Нацполіції на об'єкти</li>
+              <li>Сертифікати та довідки персоналу</li>
+              <li>Супровід в Держлікслужбі</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('narcotics')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 3 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Фармація</span>
+            <h3 class="service-title">Оптова та роздрібна торгівля ліками</h3>
+            <p class="service-desc">Ліцензування аптек, аптечних пунктів та оптових аптечних складів по всій території України.</p>
+            <ul class="service-points">
+              <li>Вимоги до площ та вентиляції</li>
+              <li>Сертифікація завідувачів аптек</li>
+              <li>Внесення змін до ліцензії</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 4 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Захист</span>
+            <h3 class="service-title">Адвокатська діяльність та захист лікаря</h3>
+            <p class="service-desc">Кримінально-правовий та цивільний захист медичного персоналу від претензій пацієнтів та перевірок.</p>
+            <ul class="service-points">
+              <li>Представництво в судах та слідчих органах</li>
+              <li>Врегулювання претензій до суду</li>
+              <li>Антикризовий консалтинг</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 5 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Аутсорсинг</span>
+            <h3 class="service-title">Юридичний супровід клінік</h3>
+            <p class="service-desc">Повне правове абонентське обслуговування щоденної діяльності закладів охорони здоров'я.</p>
+            <ul class="service-points">
+              <li>Перевірка господарських договорів</li>
+              <li>Публічні договори з пацієнтами</li>
+              <li>Згода на відеоспостереження та медвтручання</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 6 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Аудит</span>
+            <h3 class="service-title">Експертний звіт та аудит клініки</h3>
+            <p class="service-desc">Глибока перевірка відповідності поточної діяльності медичного закладу законодавчим нормам.</p>
+            <ul class="service-points">
+              <li>Виявлення ризиків анулювання ліцензії</li>
+              <li>Оцінка стану документації</li>
+              <li>План швидкого усунення недоліків</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 7 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Нерухомість</span>
+            <h3 class="service-title">Експертиза будівельних проектів</h3>
+            <p class="service-desc">Перевірка проектів медзакладів, операційних, кабінетів на відповідність ДБН та саннормам.</p>
+            <ul class="service-points">
+              <li>Зонування та функціональне призначення</li>
+              <li>Вимоги інклюзивності (пандуси, підйомники)</li>
+              <li>Погодження перепланувань</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 8 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Бухгалтерія</span>
+            <h3 class="service-title">Податковий та бухгалтерський облік</h3>
+            <p class="service-desc">Специфічний облік медичних товарів, медпрепаратів та платних медичних послуг у клініці.</p>
+            <ul class="service-points">
+              <li>Облік товарів за новими правилами</li>
+              <li>Оптимізація оподаткування медцентру</li>
+              <li>Консультації для ФОП-лікарів</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 9 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Кадри & Безпека</span>
+            <h3 class="service-title">Документообіг, охорона праці, кадри</h3>
+            <p class="service-desc">Повний пакет внутрішніх положень, правил трудового розпорядку, журналів та наказів.</p>
+            <ul class="service-points">
+              <li>Штатні розписи та посадові інструкції</li>
+              <li>Документація з пожежної безпеки</li>
+              <li>Військовий облік та бронювання лікарів</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 10 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Навчання</span>
+            <h3 class="service-title">Навчання медичного персоналу</h3>
+            <p class="service-desc">Корпоративні тренінги з юридичної безпеки для лікарів, адміністраторів та керівників.</p>
+            <ul class="service-points">
+              <li>Правильне оформлення інформованої згоди</li>
+              <li>Дії при візиті інспекцій та перевірок</li>
+              <li>Запобігання конфліктам з пацієнтами</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 11 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Стандарти</span>
+            <h3 class="service-title">Акредитація медичного закладу</h3>
+            <p class="service-desc">Отримання вищої або першої акредитаційної категорії медзакладу для підвищення статусу.</p>
+            <ul class="service-points">
+              <li>Стандарти якості меддопомоги</li>
+              <li>Підготовка пакету до акредитаційної комісії</li>
+              <li>Отримання сертифікату акредитації</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('legal-support')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- 12 -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-tag">Стоматологія</span>
+            <h3 class="service-title">Ліцензії та КВЕДи для стоматолога</h3>
+            <p class="service-desc">Спеціалізований пакет для стоматологічних кабінетів та клінік: правильні КВЕДи, рентген, обладнання.</p>
+            <ul class="service-points">
+              <li>Повний перелік документів під ключ</li>
+              <li>Повірка стоматологічного обладнання</li>
+              <li>Консультація щодо відкриття з нуля</li>
+            </ul>
+          </div>
+          <button class="btn-service-details" onclick="openServiceModal('med-practice')">
+            Детальніше
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       5-STEP PROCESS TIMELINE
+       ====================================================================== -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Прозорий процес</span>
+        <h2 class="section-title">Як відбувається процес отримання ліцензії</h2>
+        <p class="section-lead">
+          5 простих кроків до отримання офіційного наказу МОЗ без зайвих клопотів та черг.
+        </p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="process-step-card">
+          <div class="step-num">01</div>
+          <h3 class="step-title">Дзвінок або заявка</h3>
+          <p class="step-text">Ви телефонуєте нам або залишаєте заявку на сайті для безкоштовного первинного аналізу ситуації.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="step-num">02</div>
+          <h3 class="step-title">Аналіз та пакет</h3>
+          <p class="step-text">Ми зв’язуємось з Вами, проводимо аудит документації та готуємо бездоганний пакет документів.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="step-num">03</div>
+          <h3 class="step-title">Супровід інстанцій</h3>
+          <p class="step-text">Наші юристи самостійно проходять усі потрібні інстанції та подають документи до органу ліцензування.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="step-num">04</div>
+          <h3 class="step-title">Позитивне рішення</h3>
+          <p class="step-text">Отримуємо офіційне позитивне рішення Ліцензійної комісії про видачу ліцензії.</p>
+        </div>
+
+        <div class="process-step-card">
+          <div class="step-num">05</div>
+          <h3 class="step-title">Сплата та фінал</h3>
+          <p class="step-text">Подаємо документи про сплату держмита та передаємо Замовнику копії наказів і готові документи.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       INTERACTIVE PRESENTATION GALLERY (SLIDES 01 - 12)
+       ====================================================================== -->
+  <section class="presentation-showcase" id="presentation">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" style="color: #64D2FF;">Матеріали компанії</span>
+        <h2 class="section-title">Офіційна презентація «Ваше Право»</h2>
+        <p class="section-lead">
+          Ознайомтесь із ключовими матеріалами та юридичними роз'ясненнями компанії безпосередньо у переглядачі.
+        </p>
+      </div>
+
+      <div class="slides-viewer">
+        <div class="main-slide-container">
+          <img src="assets/slides/Slide_01.jpg" alt="Слайд презентації" id="main-slide-img" class="main-slide-img">
+        </div>
+
+        <div class="slides-controls">
+          <div class="slides-counter" id="slide-counter">1 / 12</div>
+          <div class="slides-nav-btns">
+            <button class="slide-nav-btn" id="slide-prev" aria-label="Попередній слайд">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+            </button>
+            <button class="slide-nav-btn" id="slide-next" aria-label="Наступний слайд">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="slide-thumbnails-strip" id="slide-thumbs">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       ACHIEVEMENTS & "ЗІРКА ЯКОСТІ"
+       ====================================================================== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="achievement-banner">
+        <div>
+          <span class="achievement-tag">Визнання на ринку України</span>
+          <h2 class="achievement-heading">Досягнення компанії відзначені «Зіркою якості»</h2>
+          <p class="achievement-text">
+            Національний рейтинг товарів та послуг України відзначив компанію «Ваше Право» почесною нагородою «Зірка якості» за високі стандарти надання юридичних та консультаційних послуг у сфері охорони здоров’я.
+          </p>
+          <button class="btn-pill-primary" style="background: #FFFFFF; color: var(--primary-navy);" onclick="scrollToConsultation()">
+            Зв’язатися з лідером рейтингу
+          </button>
+        </div>
+
+        <div class="achievement-badge-box">
+          <svg class="star-icon" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <div class="badge-text-main">Зірка Якості</div>
+          <div class="badge-text-sub">Національний рейтинг товарів та послуг України</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       BLOG / KNOWLEDGE BASE
+       ====================================================================== -->
+  <section class="section section-parchment" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">База знань</span>
+        <h2 class="section-title">Корисна інформація для медичних закладів</h2>
+        <p class="section-lead">
+          Актуальні роз'яснення законодавчих норм, зміни ліцензійних умов та поради від наших фахівців.
+        </p>
+      </div>
+
+      <div class="articles-grid">
+        <!-- Article 1 -->
+        <div class="article-card">
+          <div class="article-card-top">
+            <div class="article-meta">
+              <span class="article-category">Облік & Фінанси</span>
+              <span class="article-date">Актуально</span>
+            </div>
+            <h3 class="article-title">Облік товарів у господарській діяльності з медичної практики</h3>
+            <p class="article-excerpt">
+              Особливості ведення обліку лікарських засобів та медичних виробів: нормативні вимоги, уникнення штрафів при перевірках податкової та Держлікслужби.
+            </p>
+          </div>
+          <a href="#contacts" class="article-read-link">
+            Читати роз’яснення
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="article-card">
+          <div class="article-card-top">
+            <div class="article-meta">
+              <span class="article-category" style="background: #FFEBEA; color: var(--error);">Увага: Зміни</span>
+              <span class="article-date">Терміново</span>
+            </div>
+            <h3 class="article-title">Зміни для всіх ліцензіатів у провадженні медичної практики</h3>
+            <p class="article-excerpt">
+              Огляд ключових оновлень ліцензійних умов МОЗ України: що зобов'язані змінити всі медичні заклади та приватні лікарі найближчим часом.
+            </p>
+          </div>
+          <a href="#contacts" class="article-read-link">
+            Читати роз’яснення
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="article-card">
+          <div class="article-card-top">
+            <div class="article-meta">
+              <span class="article-category">Стоматологія</span>
+              <span class="article-date">Інструкція</span>
+            </div>
+            <h3 class="article-title">Документи для провадження діяльності за напрямком «Стоматологія»</h3>
+            <p class="article-excerpt">
+              Повний перелік нормативної документації, вимоги до рентген-апаратів, засобів вимірювальної техніки та сертифікатів лікарів-стоматологів.
+            </p>
+          </div>
+          <a href="#contacts" class="article-read-link">
+            Читати роз’яснення
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       CONTACTS & FORM
+       ====================================================================== -->
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Зв’яжіться з нами</span>
+        <h2 class="section-title">Отримайте безкоштовну консультацію</h2>
+        <p class="section-lead">
+          Зателефонуйте нам або залиште контактні дані — наш провідний медичний юрист вийде на зв’язок протягом 15 хвилин.
+        </p>
+      </div>
+
+      <div class="contacts-wrapper">
+        <!-- Left: Offices & Numbers -->
+        <div class="offices-column">
+          <!-- Kyiv -->
+          <div class="office-card">
+            <div class="office-city">
+              <span>м. Київ</span>
+              <span class="office-city-badge">Головний офіс</span>
+            </div>
+            <p class="office-address">
+              вул. Січових Стрільців, 77, офіс 706
+            </p>
+            <div class="contact-quick-buttons">
+              <a href="tel:0800336012" class="contact-pill-btn">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.72 11.72 0 003.68.59 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.72 11.72 0 00.59 3.68 1 1 0 01-.24 1.02l-2.23 2.09z"/></svg>
+                0 800 33 60 12 (Безкоштовно)
+              </a>
+              <a href="tel:+380682720638" class="contact-pill-btn">
+                068 272 06 38
+              </a>
+              <a href="tel:+380663174080" class="contact-pill-btn">
+                066 317 40 80
+              </a>
+            </div>
+          </div>
+
+          <!-- Odesa -->
+          <div class="office-card">
+            <div class="office-city">
+              <span>м. Одеса</span>
+              <span class="office-city-badge">Південний регіон</span>
+            </div>
+            <p class="office-address">
+              вул. Катерининська, 59
+            </p>
+            <div class="contact-quick-buttons">
+              <a href="mailto:info@vashepravokyiv.com.ua" class="contact-pill-btn">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                info@vashepravokyiv.com.ua
+              </a>
+            </div>
+          </div>
+
+          <!-- Socials -->
+          <div class="office-card" style="padding: 24px 32px;">
+            <div style="font-size: 14px; font-weight: 600; color: var(--primary-navy); margin-bottom: 12px;">
+              Ми в соціальних мережах:
+            </div>
+            <div style="display: flex; gap: 12px;">
+              <a href="https://www.facebook.com/aleksarodygina/" target="_blank" rel="noopener" class="contact-pill-btn">
+                Facebook Олександри Родигіної
+              </a>
+              <a href="https://www.instagram.com/vashepravokyiv/" target="_blank" rel="noopener" class="contact-pill-btn">
+                Instagram @vashepravokyiv
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Lead Form -->
+        <div class="contact-form-card">
+          <h3 class="form-heading">Замовити консультацію медичного адвоката</h3>
+          <p class="form-subheading">Заповніть форму, і ми детально розберемо Вашу ситуацію.</p>
+
+          <form id="consultation-form">
+            <div class="form-group">
+              <label class="form-label">Ваше ім’я</label>
+              <input type="text" class="form-input" placeholder="Олександр або назва клініки" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Контактний телефон</label>
+              <input type="tel" class="form-input" placeholder="+38 (0__) ___-__-__" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Тематика запиту (необов’язково)</label>
+              <textarea class="form-textarea" placeholder="Наприклад: Отримання нової ліцензії на медпрактику або захист при перевірці"></textarea>
+            </div>
+
+            <button type="submit" class="btn-form-submit">
+              <span>Надіслати заявку</span>
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <div class="footer-logo-title">Компанія «Ваше Право»</div>
+          <p class="footer-logo-desc">
+            Провідна українська юридична компанія у сфері медичного права та фармацевтики. Ліцензування та захист медичного бізнесу з 2000 року.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/aleksarodygina/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/vashepravokyiv/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-column-title">Навігація</div>
+          <ul class="footer-links-list">
+            <li><a href="#about">Про компанію</a></li>
+            <li><a href="#services">Всі послуги</a></li>
+            <li><a href="#process">Процес ліцензування</a></li>
+            <li><a href="#presentation">Презентація</a></li>
+            <li><a href="#achievements">Досягнення</a></li>
+            <li><a href="#blog">Корисна інформація</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-column-title">Послуги</div>
+          <ul class="footer-links-list">
+            <li><a href="#services">Ліцензія МОЗ</a></li>
+            <li><a href="#services">Обіг наркотичних засобів</a></li>
+            <li><a href="#services">Аптечні ліцензії</a></li>
+            <li><a href="#services">Захист лікаря</a></li>
+            <li><a href="#services">Стоматологічні кабінети</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-column-title">Контакти</div>
+          <ul class="footer-links-list">
+            <li>Київ: вул. Січових Стрільців, 77, оф. 706</li>
+            <li>Одеса: вул. Катерининська, 59</li>
+            <li><a href="tel:0800336012"><strong>0 800 33 60 12</strong> (Безкоштовно)</a></li>
+            <li><a href="tel:+380682720638">068 272 06 38</a></li>
+            <li><a href="mailto:info@vashepravokyiv.com.ua">info@vashepravokyiv.com.ua</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2000–2026 ТОВ «Ваше Право». Всі права захищено.</div>
+        <div>Розроблено на основі нової преміальної дизайн-системи Apple UI</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       MODAL POPUP FOR SERVICE DETAILS
+       ====================================================================== -->
+  <div class="modal-overlay" id="service-modal">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modal-close" aria-label="Закрити">&times;</button>
+      <h3 class="modal-title" id="modal-title">Назва послуги</h3>
+      <div class="modal-subtitle" id="modal-subtitle">Підзаголовок</div>
+      <div class="modal-content-body" id="modal-body">
+        <!-- Injected via JS -->
+      </div>
+      <div style="margin-top: 32px;">
+        <button class="btn-pill-primary" style="width: 100%;" onclick="document.getElementById('service-modal').classList.remove('open'); scrollToConsultation();">
+          Отримати безкоштовну консультацію за цим напрямком
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toast-notice">
+    <svg width="22" height="22" fill="#34C759" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+    <div>
+      <div style="font-weight: 700; font-size: 14px;">Дякуємо за звернення!</div>
+      <div style="font-size: 12px; color: #D2D2D7;">Наш провідний юрист зателефонує Вам найближчим часом.</div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

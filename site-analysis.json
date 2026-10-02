@@ -1,0 +1,137 @@
+{
+  "site": {
+    "url": "https://vashepravokyiv.com.ua/",
+    "webliumEditorUrl": "https://app.weblium.com/ua/editor/website/6686b8c3bb9d7d7e39b77097/6686b8c5bb9d7d7e39b770e7",
+    "title": "Ваше Право",
+    "themeColor": "#425e7b",
+    "pages": [
+      {
+        "name": "Головна",
+        "slug": "/",
+        "currentTitle": "Ваше Право",
+        "metaDescription": "Отримання ліцензій на медичну практику",
+        "metaKeywords": "Ваше право, медичні ліцензії, медичний авокат",
+        "sectionsCount": 8,
+        "formsCount": 3
+      },
+      {
+        "name": "Отримання ліцензії",
+        "slug": "/about-us",
+        "currentTitle": "About us Page | Investment Agency Website Template",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "sectionsCount": 5,
+        "formsCount": 2
+      },
+      {
+        "name": "Досягнення компанії",
+        "slug": "/investment-programs",
+        "currentTitle": "Investment Programs Page | Investment Agency Website Template",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "sectionsCount": 4,
+        "formsCount": 2
+      },
+      {
+        "name": "Всі послуги",
+        "slug": "/real-estate-investment",
+        "currentTitle": "Real Estate Investment Page | Investment Agency Website Template",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "sectionsCount": 6,
+        "formsCount": 2
+      },
+      {
+        "name": "Корисна інформація",
+        "slug": "/blog",
+        "currentTitle": "Ваше право | Корисна інформація",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "sectionsCount": 3,
+        "formsCount": 1
+      },
+      {
+        "name": "Контакти",
+        "slug": "/contacts",
+        "currentTitle": "Contacts Page | Investment Agency Website Template",
+        "metaDescription": "",
+        "metaKeywords": "",
+        "sectionsCount": 4,
+        "formsCount": 2
+      }
+    ]
+  },
+  "brand": {
+    "companyName": "Ваше Право",
+    "leader": "Родигіна Олександра Олександрівна",
+    "industry": "Медичне право, ліцензування медичної практики, обіг підконтрольних речовин, правовий захист лікарів і клінік",
+    "experience": "Понад 20 років на ринку охорони здоров'я України (з 2000 року)",
+    "currentColors": {
+      "primary": "#425e7b",
+      "text": "#1d1d1f",
+      "background": "#ffffff",
+      "accent": "#425e7b"
+    },
+    "visualStyle": "Юридична компанія на базі Weblium шаблону Investment Agency"
+  },
+  "contacts": {
+    "phones": [
+      {
+        "display": "0 800 33 60 12",
+        "raw": "0800336012",
+        "bugHref": "tel:+30800336012"
+      },
+      {
+        "display": "068 272 06 38",
+        "raw": "0682720638",
+        "bugHref": "http://tel:+30682720638"
+      },
+      {
+        "display": "066 317 40 80",
+        "raw": "0663174080",
+        "bugHref": "http://tel:+30663174080"
+      }
+    ],
+    "email": "info@vashepravokyiv.com.ua",
+    "addresses": [
+      "м. Київ, вул. Січових Стрільців, 77, офіс 706",
+      "м. Одеса, вул. Катерининська, 59"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/aleksarodygina/",
+      "instagram": "https://www.instagram.com/vashepravokyiv/"
+    }
+  },
+  "uxIssues": [
+    {
+      "severity": "CRITICAL",
+      "area": "Шаблонні URL та Title",
+      "description": "Сторінки мають дефолтні шаблонні URL і Title: /about-us (About us Page | Investment Agency Website Template), /investment-programs (Investment Programs Page...), /real-estate-investment (Real Estate Investment Page...). Це критично для довіри клієнтів та SEO."
+    },
+    {
+      "severity": "CRITICAL",
+      "area": "Сміттєвий контент шаблону",
+      "description": "На сторінці досягнень (/investment-programs) залишилися тексти англійського демо-шаблону: Quantum CEO & our partners, Digital Marketing workshop lecturer, Quantum Company at WebSummit, UX workshop attendees."
+    },
+    {
+      "severity": "HIGH",
+      "area": "Биті посилання на телефони",
+      "description": "Посилання містять помилкові протоколи: tel:+30800336012 (+30 - код Греції) та http://tel:+30682720638. Виклик на мобільних пристроях не працює або йде за кордон."
+    },
+    {
+      "severity": "HIGH",
+      "area": "Каша в структурі послуг",
+      "description": "На сторінці послуг десятки підпунктів документації злиплись у суцільний текст без абзаців, списків, підзаголовків чи бейджів."
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Форми та системні повідомлення",
+      "description": "Системні сповіщення форм Weblium виводяться англійською (Thank you! We will contact you shortly; Can't send form)."
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Злипання контактів",
+      "description": "У футері та на сторінці контактів телефони та адреси відображаються єдиним рядком без пробілів (0 800 33 60 12068 2720638066 3174080)."
+    }
+  ]
+}
